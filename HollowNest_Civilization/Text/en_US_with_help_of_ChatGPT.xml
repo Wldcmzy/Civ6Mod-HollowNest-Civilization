@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- en_US_with_help_of_ChatGPT -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 2/24/2024 3:38:26 PM -->
+<GameData>
+	<LocalizedText>
+		
+		<Replace Tag="LOC_UNIT_HOLLOW_KNIGHT_NAME" Language="en_US">
+			<Text>Hollow Knight</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_HOLLOW_KNIGHT_DESCRIPTION" Language="en_US">
+			<Text>
+				Container of the Light, with 52 [ICON_Strength] Combat Strength, 6 [ICON_Movement] Movement.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_HK_SPEC_TOWER_NAME" Language="en_US">
+			<Text>Watcher's Spire</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_BUILDING_HK_SPEC_TOWER_DESCRIPTION" Language="en_US">
+			<Text>
+				A Classical Wonder unique to the HollowNest civilization, 
+				can only be built in cities with the Black Egg Temple District and on Hills. 
+				Units atop the Watcher's Spire gain +12 sight range.
+			</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_BUILDING_HK_SPEC_TOWER_QUOTE" Language="en_US">
+			<Text>
+				He lies at the top of this tower, 
+				beside which stands a telescope that overlooks the city. 
+				Here lie some remnants of the Watcher, most now corpses.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_HK_SPEC_TOWER_SIGHT_BUFF_NAME" Language="en_US">
+			<Text>Heightened Vision</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_HK_SPEC_TOWER_SIGHT_BUFF_DESCRIPTION" Language="en_US">
+			<Text>
+				Units atop the Watcher's Spire gain +12 sight range and can see through Rainforests.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_THE_GRIMM_TROUPE_NAME" Language="en_US">
+			<Text>Grimm Troupe</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_THE_GRIMM_TROUPE_DESCRIPTION" Language="en_US">
+			<Text>
+				A unique city center building for the leader Grimm, 
+				providing +2 [ICON_Gold] Gold, +2 [ICON_Faith] Faith, 
+				+2 [ICON_Culture] Culture, +2 [ICON_Amenities] Amenities, 
+				+2 [ICON_GreatArtist] Great Artist points, 
+				+1 [ICON_GreatMusician] Great Musician points, 
+				+2 [ICON_GreatWork_Writing] Writing slots, 
+				and +1 [ICON_GreatWork_Music] Music slot. 
+				The theatrical performances of the Grimm Troupe are very inspiring. 
+				Within one ring of the Grimm Troupe, your units heal additional HP when resting, 
+				and military units gain +3 [ICON_Strength].
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_COLOSSEUM_OF_FOOLS_NAME" Language="en_US">
+			<Text>Colosseum of Fools</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_COLOSSEUM_OF_FOOLS_DESCRIPTION" Language="en_US">
+			<Text>
+				Replaces the Arena.
+				Only the bravest and strongest can survive the hellish trials
+				and earn substantial gold rewards in the Colosseum of Fools,
+				which also leads to the high maintenance cost of the arena,
+				and those who are not careful will leave with regret and unwillingness.
+				Requires less [ICON_Production] Production to construct
+				(150 [ICON_Production] -> 100 [ICON_Production]).
+				Provides +3 [ICON_Amenities] Amenities as an entertainment complex.
+				Maintenance cost: 8 [ICON_Gold] Gold (base 2 [ICON_Gold] Gold,
+				and each of the three trials in the arena corresponds to 1, 2, 3 [ICON_Gold] Gold).
+				Offers +3 [ICON_GreatWork_Relic] Relic slots.
+				Increases production of military units in this city by 100% [ICON_Production],
+				and if the city also has a Encampment,
+				the production is further increased by 100% [ICON_Production].
+			</Text>
+		</Replace>
+
+
+		
+		<Replace Tag="LOC_BUILDING_TEACHERS_ARCHIVES_NAME" Language="en_US">
+			<Text>Teacher's Archives</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_TEACHERS_ARCHIVES_DESCRIPTION" Language="en_US">
+			<Text>
+				Replaces the Library, 
+				requiring higher production cost (90 [ICON_Production] -> 120 [ICON_Production]), 
+				and maintenance cost of 1 [ICON_Gold] Gold. 
+				Teacher Monomon pursued change and made significant contributions to the scientific 
+				and educational development of HollowNest. 
+				The archives contain manuscripts of Teacher Monomon. 
+				Upon completion, randomly receive one Industrial Era or earlier 
+				[ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration each. 
+				Provides +2 [ICON_Science] Science, +2 [ICON_Culture] Culture, 
+				+2 [ICON_GreatScientist] Great Scientist points, 
+				+1 [ICON_GreatArtist] Great Artist point, 
+				and +2 [ICON_GreatWork_Writing] Writing slots.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_PLEASURE_HOUSE_NAME" Language="en_US">
+			<Text>Pleasure House</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_PLEASURE_HOUSE_DESCRIPTION" Language="en_US">
+			<Text>
+				Replaces the Amphitheater,
+				with reduced production cost (150 [ICON_Production] -> 120 [ICON_Production])
+				and maintenance cost of 1 [ICON_Gold] Gold.
+				The Songstress often create songs and sing the most beautiful music in all of HollowNest,
+				with lingering melodies that are enchanting.
+				Provides +2 [ICON_Culture] Culture, +3 [ICON_GreatMusician] Great Musician points,
+				and +3 [ICON_GreatWork_Music] Music slots. Upon completion,
+				triggers a random [ICON_CivicBoosted] Inspiration from any era each time a new era is entered.
+				[Note: This effect is based on the era corresponding to your best technology or civic, not the world era.]
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_PALACE_GROUNDS_NAME" Language="en_US">
+			<Text>Palace Grounds</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_DISTRICT_PALACE_GROUNDS_DESCRIPTION" Language="en_US">
+			<Text>
+				Replaces the Holy Site, with maintenance cost of 1[ICON_Gold] Gold, 
+				and significantly reduced production cost(54[ICON_Production]->18[ICON_Production]).
+				The King's Statue stands amidst the fountain in the center of the square, revered by the bugs.
+				Palace Grounds receive a bonus of 1 from adjacent districts,
+				providing +4[ICON_Faith] Faith.
+				Grants +2[ICON_GreatProphet] Great Prophet points.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_PALACE_GROUNDS_FAITH" Language="en_US">
+			<Text>+{1_num} [ICON_Faith] from adjacent districts</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_FLOURISHING_CROSSROADS_NAME" Language="en_US">
+			<Text>Flourishing Crossroads</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_FLOURISHING_CROSSROADS_DESCRIPTION" Language="en_US">
+			<Text>
+				Replaces the Commercial Hub. As an important hub of transportation, 
+				the Crossroads witness a constant stream of bugs traversing the hills and seas,
+				reflecting the economic and cultural prosperity of HollowNest Civilization.
+				The adjacency bonus is changed to +1,
+				providing equivalent [ICON_Culture] Culture and [ICON_Production] Production to the adjacency bonus of the district.
+				Provides more [ICON_Food] Food, [ICON_Production] Production, and [ICON_Gold] Gold for domestic trade routes
+				(0[ICON_Food]1[ICON_Production]0[ICON_Gold]->2[ICON_Food]2[ICON_Production]1[ICON_Gold]),
+				and more [ICON_Gold] Gold for international trade routes (3[ICON_Gold]->6[ICON_Gold]).
+				Upon completion, [ICON_TradeRoute] Trade Route capacity increases by 1, and a Merchant unit is granted.
+			</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_DISTRICT_FLOURISHING_CROSSROADS_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] from adjacent districts</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_NAME" Language="en_US">
+			<Text>Temple of the Black Egg Square</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_DESCRIPTION" Language="en_US">
+			<Text>
+				[Note: This district uses the Holy Site model,
+				please carefully identify the area when playing the game]
+				A unique district of the HollowNest civilization, does not replace any district,
+				no population requirement, can only be built in one city,
+				construction costs greatly reduced, disappears when the city is occupied.
+				Provides +3 adjacency bonus to most common districts and a few unique districts.
+				Grants +3 [ICON_Science], +3 [ICON_Culture], +3 [ICON_Gold],
+				+3 [ICON_Faith], +3 [ICON_Food], +3 [ICON_Production].
+				Provides double the bonus of the Government Plaza for international and domestic trade.
+				Pillaging this district can yield twice the [ICON_Faith] Faith of pillaging a Holy Site.
+				Upon completion, can recruit a Hollow Knight regardless of tech restrictions.
+				Hollow Knights adjacent to this district gain +25 [ICON_Strength].
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_HOLLOW_KNIGHT_ADD_NEWBEE_BUFF_DESCRIPTION" Language="en_US">
+			<Text>+25 [ICON_Strength] strength from adjacent Temple of the Black Egg Square</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_CULTURE" Language="en_US">
+			<Text>+{1_num} [ICON_Culture] from adjacent Temple of the Black Egg Square</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_FAITH" Language="en_US">
+			<Text>+{1_num} [ICON_Faith] from adjacent Temple of the Black Egg Square</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] from adjacent Temple of the Black Egg Square</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] from adjacent Temple of the Black Egg Square</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_Science] from adjacent Temple of the Black Egg Square</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CIVILIZATION_HOLLOWNEST_NAME" Language="en_US">
+			<Text>HollowNest</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_HOLLOWNEST_DESCRIPTION" Language="en_US">
+			<Text>HollowNest Civilization</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_HOLLOWNEST_ADJECTIVE" Language="en_US">
+			<Text>HollowNest</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_HOLLOWNEST_NAME" Language="en_US">
+			<Text>Blessing of the Ordinary and Charm Overload</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_HOLLOWNEST_DESCRIPTION" Language="en_US">
+			<Text>
+				Blessing of the Ordinary: There is a chance for your units to leave behind a [ICON_GreatWork_Relic] Relic upon death.
+				Charm Overload: Gain one wildcard policy slot. Upon entering the Classical Era,
+				gain an additional economic policy slot, and upon entering the Medieval Era,
+				gain another additional economic policy slot.
+				[Note: This effect is based on the era corresponding to your best technology or civic, not the world era.]
+			</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_LEADER_RADIANCE_NAME" Language="en_US">
+			<Text>The Radiance</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_RADIANCE_NAME" Language="en_US">
+			<Text>Infection</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_RADIANCE_DESCRIPTION" Language="en_US">
+			<Text>
+				The Radiance manipulates the minds of living beings through dream infection, 
+				increasing the religious pressure emitted by cities by 10000%.
+				Religious units gain +16 [ICON_Religion] religious strength and +2 proselytizing charges, 
+				Apostles automatically gaining the debater and proselytizer promotions.
+				The loyalty of your cities is locked at 100%, and each city exerts +8 loyalty pressure on nearby cities.
+				If other cities lose all loyalty and are subject to The Radiance's maximum loyalty pressure, 
+				they skip the Free City phase and immediately join The Radiance.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_RADIANCE_RELIGIOUS_BUFF_NAME" Language="en_US">
+			<Text>The Radiance's Infection</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_RADIANCE_RELIGIOUS_BUFF_DESCRIPTION" Language="en_US">
+			<Text>
+				The Radiance's Infection: +16 [ICON_Religion] religious strength
+			</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_LEADER_GOD_OF_GODS_NAME" Language="en_US">
+			<Text>The Knight (God of Gods)</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_GOD_OF_GODS_NAME" Language="en_US">
+			<Text>Endless Trials</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_GOD_OF_GODS_DESCRIPTION" Language="en_US">
+			<Text>
+				The Knight has undergone countless trials and tribulations, 
+				completing numerous feats including the powerless r045, 
+				the Any Radiance 3.0 speedkill, the Path of Pain in 1 minute and 40 seconds, 
+				and the any% speedrun in 25 minutes, as well as TASing the entire Hollow Nest. 
+				Eventually ascending to become the God of Gods of Hollow Nest. 
+				Military units gain +3 [ICON_Strength] strength, 
+				and injured military units do not lose strength. 
+				Military units gain +400% experience, 
+				with experience gains from unit combat capped at the in-game limit of 8. 
+				After combat, military units gain additional effects in the following order: 
+				1. Gain an additional 7 experience. 
+				2. Regain 1 health for every 7 experience points. 
+				3. If the enemy is a unit, deal an additional 1 damage for every 7 experience points.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_GOD_OF_GODS_COMBAT_BUFF_NAME" Language="en_US">
+			<Text>Iron Will</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_GOD_OF_GODS_COMBAT_BUFF_DESCRIPTION" Language="en_US">
+			<Text>
+				The mighty will of the Void God: +5 [ICON_Strength] strength
+			</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_LEADER_WANDERER_NAME" Language="en_US">
+			<Text>The Knight (Wanderer)</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_WANDERER_NAME" Language="en_US">
+			<Text>Exploration of HollowNest</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_WANDERER_DESCRIPTION" Language="en_US">
+			<Text>
+				The agile leader of HollowNest can effortlessly traverse any location within the civilization.
+				All units gain +2 [ICON_Movement] Movement. 
+				When passing through certain terrain features and rivers, 
+				they can ignore movement penalties, although they are still subject to zone of control.
+				Settler units receive +150% [ICON_Production] Production for settling.
+				Upon founding or capturing a city, receive a Scout type unit.
+			</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_LEADER_WANDERER_EXTRA_MOVEMENT_NAME" Language="en_US">
+			<Text>Wanderer's Agility</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_WANDERER_EXTRA_MOVEMENT_DESCRIPTION" Language="en_US">
+			<Text>
+				Bonus +1 [ICON_Movement] Movement from Exploration of HollowNest
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_WANDERER_IGNORE_TERRAIN_COST_NAME" Language="en_US">
+			<Text>Wanderer's Talons</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_WANDERER_IGNORE_TERRAIN_COST_DESCRIPTION" Language="en_US">
+			<Text>
+				Ignore extra Movement costs from terrain types due to Exploration of HollowNest
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_WANDERER_IGNORE_RIVERS_NAME" Language="en_US">
+			<Text>Wanderer's Cloak</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_WANDERER_IGNORE_RIVERS_DESCRIPTION" Language="en_US">
+			<Text>
+				Ignore extra Movement costs from crossing rivers due to Exploration of HollowNest
+			</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_LEADER_WYRMS_NAME" Language="en_US">
+			<Text>Wyrms</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_WYRMS_NAME" Language="en_US">
+			<Text>Master Decorator</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_WYRMS_DESCRIPTION" Language="en_US">
+			<Text>
+				The Pale King, Wyrms, possesses a unique talent for interior design,
+				indicating his exceptional architectural prowess.
+				Most conventional improvements in cities provide an additional
+				+1 [ICON_Food] Food and +4 [ICON_Production] Production.
+				Wyrms adeptly employs sharp saws to adorn every corner of his cities.
+				Citizens and armies alike practice parkour in the saws,
+				enhancing their adaptability to it.
+				Friendly locals are happy to guide outsiders through the ever-changing saws.
+				Enemies unfamiliar with the terrain face considerable challenges in Wyrms' cities,
+				as they gain the "Path of Pain" debuff, within 3 tiles of your city,
+				reducing the maximum Movement of the units by -2 [ICON_Movement]
+				(effects stack, reducing Movement to zero is equivalent to permanent immobilization).
+				Additionally, military units fighting in or adjacent to your territory gain
+				+10 [ICON_Strength] Strength.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_WYRMS_HOME_COMBAT_BUFF_NAME" Language="en_US">
+			<Text>Sawsea Guerrilla</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_WYRMS_HOME_COMBAT_BUFF_DESCRIPTION" Language="en_US">
+			<Text>
+				Military units gain +10 [ICON_Strength] Strength when fighting in your territory 
+				or in tiles adjacent to your territory.
+			</Text>
+		</Replace>
+
+		
+
+		<Replace Tag="LOC_LEADER_GRIMM_NAME" Language="en_US">
+			<Text>Grimm (Troupe Leader)</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_GRIMM_NAME" Language="en_US">
+			<Text>Professional Spirit</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_GRIMM_DESCRIPTION" Language="en_US">
+			<Text>
+				Your Technology costs are reduced by 80%, 
+				[ICON_TechBoosted] Eureka moments provide -40%, 
+				but [ICON_CivicBoosted] Inspirations provide +40%. 
+				Additionally, at the end of each turn, you gain an amount of Gold, Faith, 
+				and Science equivalent to 50% of your Culture. 
+				Whenever you unlock a Civic, you immediately trigger 1 to 3 [ICON_CivicBoosted] 
+				Inspirations (with a high probability of triggering 1), 
+				and you immediately receive a large amount of Science 
+				(equal to the amount of Culture required to unlock that Civic). 
+				Your Great Writers and Great Artists provide +5 [ICON_Strength] 
+				Strength to units within 2 tiles of their location. 
+				You can construct the unique building, Grimm Troupe, in your cities. 
+				See the description for Grimm Troupe for details. 
+				All tiles in cities with Grimm Troupe provide +1 [ICON_Culture] Culture 
+				and +1 [ICON_Production] Production, 
+				with the effects doubling upon researching Printing technology.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_THE_GRIMM_TROUPE_NAME" Language="en_US">
+			<Text>Establish Troupe</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_THE_GRIMM_TROUPE_DESCRIPTION" Language="en_US">
+			<Text>
+				Your cities can construct the city center building, 
+				Grimm Troupe, providing +2 [ICON_Gold] Gold, +2 [ICON_Faith] Faith, 
+				+2 [ICON_Culture] Culture, +2 [ICON_Amenities] Amenities, 
+				+2 [ICON_GreatArtist] Great Writer points, 
+				+1 [ICON_GreatMusician] Great Musician points, 
+				+2 [ICON_GreatWork_Writing] Writing slots, 
+				and +1 [ICON_GreatWork_Music] Music slot. 
+				The performances of Grimm Troupe inspire your nearby combat units with 
+				+3 [ICON_Strength] Strength within 1 tile and provide additional healing during rests.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_THE_GRIMM_TROUPE_COMBAT_BUFF_NAME" Language="en_US">
+			<Text>Inspiration of Grimm Troupe</Text>
+		</Replace>
+
+		<Replace Tag="LOC_THE_GRIMM_TROUPE_COMBAT_BUFF_DESCRIPTION" Language="en_US">
+			<Text>
+				Units gain +3 [ICON_Strength] Strength when adjacent to Grimm Troupe.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_THE_GRIMM_TROUPE_HEAL_BUFF_NAME" Language="en_US">
+			<Text>Restoration of Grimm Troupe</Text>
+		</Replace>
+
+		<Replace Tag="LOC_THE_GRIMM_TROUPE_HEAL_BUFF_DESCRIPTION" Language="en_US">
+			<Text>
+				Units gain +20 healing when adjacent to Grimm Troupe.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_LEADER_GRIMM_WRITER_GENERAL_DESCRIPTION" Language="en_US">
+			<Text>
+				Provides +5 [ICON_Strength] Strength to units within 2 tiles of Great Writers.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_LEADER_GRIMM_MUSICIAN_GENERAL_DESCRIPTION" Language="en_US">
+			<Text>
+				Provides +5 [ICON_Strength] Strength to units within 2 tiles of Great Musicians.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_GRIMM_ARTIST_BECOME_GENERAL_DESCRIPTION" Language="en_US">
+			<Text>
+				Provides +5 [ICON_Strength] Strength to units within 2 tiles of Great Artists.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_GRIMM_MUSICIAN_BECOME_GENERAL_DESCRIPTION" Language="en_US">
+			<Text>
+				Provides +5 [ICON_Strength] Strength to units within 2 tiles of Great Musicians.
+			</Text>
+		</Replace>
+		
+		
+
+
+		<Replace Tag="LOC_CITY_NAME_THE_ABYSS" Language="en_US">
+			<Text>The Abyss</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_ANCIENT_BASIN" Language="en_US">
+			<Text>Ancient Basin</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_CITY_OF_TEARS" Language="en_US">
+			<Text>City of Tears</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_CRYSTAL_PEAK" Language="en_US">
+			<Text>Crystal Peak</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_DEEPNEST" Language="en_US">
+			<Text>Deepnest</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_DIRTMOUTH" Language="en_US">
+			<Text>Dirtmouth</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_FOG_CANYON" Language="en_US">
+			<Text>Fog Canyon</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_FUNGAL_WASTES" Language="en_US">
+			<Text>Fungal Wastes</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_GODHOME" Language="en_US">
+			<Text>Godhome</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_GREENPATH" Language="en_US">
+			<Text>Greenpath</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_THE_HIVE" Language="en_US">
+			<Text>The Hive</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_KINDOM_S_EDGE" Language="en_US">
+			<Text>Kingdom's Edge</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_QUEEN_S_GARDENS" Language="en_US">
+			<Text>Queen's Gardens</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_RESTING_GROUNDS" Language="en_US">
+			<Text>Resting Grounds</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_ROYAL_WATERWAYS" Language="en_US">
+			<Text>Royal Waterways</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_WHITE_PALACE" Language="en_US">
+			<Text>White Palace</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_SOUL_DUALISM" Language="en_US">
+			<Text>Soul Sanctum</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_HOWLING_CLIFFS" Language="en_US">
+			<Text>Howling Cliffs</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_DREAM_REALM" Language="en_US">
+			<Text>Dream Realm</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_MANTIS_VILLAGE" Language="en_US">
+			<Text>Mantis Village</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_LAKE_OF_UNN" Language="en_US">
+			<Text>Lake of Unn</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_STONE_SANCTUARY" Language="en_US">
+			<Text>Stone Sanctuary</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_ANCESTRAL_MOUND" Language="en_US">
+			<Text>Ancestral Mound</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_KINGS_PASS" Language="en_US">
+			<Text>King's Pass</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_STAG_NEST" Language="en_US">
+			<Text>Stag Nest</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_ISMAS_GROVE" Language="en_US">
+			<Text>Ismas Grove</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_JUNK_PIT" Language="en_US">
+			<Text>Junk Pit</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_SOUL_SANCTUM" Language="en_US">
+			<Text>Soul Sanctum</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_TOWER_OF_LOVE" Language="en_US">
+			<Text>Tower of Love</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_KINGS_STATION" Language="en_US">
+			<Text>King's Station</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_LAND_OF_STORMS" Language="en_US">
+			<Text>Land of Storms</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_DISTANT_VILLAGE" Language="en_US">
+			<Text>Distant Village</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_HOLLOWNESTS_CROWN" Language="en_US">
+			<Text>Hollownest's Crown</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_CRYSTALLISED_MOUND" Language="en_US">
+			<Text>Crystallised Mound</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_CAST_OFF_SHELL" Language="en_US">
+			<Text>Cast-off Shell</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_OVERGROWN_MOUND" Language="en_US">
+			<Text>Overgrown Mound</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_QUEENS_STATION" Language="en_US">
+			<Text>Queen's Station</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_FUNGAL_CORE" Language="en_US">
+			<Text>Fungal Core</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_0" Language="en_US">
+			<Text>Whatever the cost, it was worth it.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_1" Language="en_US">
+			<Text>......</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_2" Language="en_US">
+			<Text>No mind to think.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_3" Language="en_US">
+			<Text>No will to break.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_4" Language="en_US">
+			<Text>No voice to cry suffering.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_5" Language="en_US">
+			<Text>Born of God and Void.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_6" Language="en_US">
+			<Text>You shall seal the blinding light that plagues their dreams.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_6_RADIANCE" Language="en_US">
+			<Text>[COLOR_FLOAT_GOLD]You bow to the Radiance and accept its light.[ENDCOLOR]</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_7" Language="en_US">
+			<Text>You are the Vessel.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_8" Language="en_US">
+			<Text>You are the Hollow Knight.</Text>
+		</Replace>
+		
+		
+		
+
+		<Replace Tag="LOC_AGENDA_RADIANCE_NAME" Language="en_US">
+			<Text>Golden Radiance</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_RADIANCE_DESCRIPTION" Language="en_US">
+			<Text>
+				Civilization that enjoys entering golden ages accompanied by golden light,
+				slightly disapproves civilizations living in normal ages,
+				and detests civilizations living in dark ages.
+			</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_RADIANCE_ANY" Language="en_US">
+			<Text>...LIGHT. SHINE...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_RADIANCE_ANY" Language="en_US">
+			<Text>...DARK. ABYSS...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_AGENDA_RADIANCE_MODIFIER_GOLD_DES" Language="en_US">
+			<Text>...CIVILIZATION THAT DELIGHTS IN ENTERING GOLDEN AGES ACCOMPANIED BY RADIANT LIGHT...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_AGENDA_RADIANCE_A_BIT_HATE_NO_GOLD_AGE_DES" Language="en_US">
+			<Text>...SLIGHTLY RESENTFUL TOWARDS CIVILIZATIONS NOT IN THE GOLDEN AGE...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_AGENDA_RADIANCE_MODIFIER_DARK_DES" Language="en_US">
+			<Text>...EXTREMELY DISGUSTED WITH CIVILIZATIONS LIVING IN THE DARK AGE...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_RADIANCE_ANY" Language="en_US">
+			<Text>...I AM RADIANCE. I DO NOT FEAR YOU...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_RADIANCE_ANY" Language="en_US">
+			<Text>...I AM RADIANCE. WHAT BE YOU...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_RADIANCE_ANY" Language="en_US">
+			<Text>...SINCERELY INVITE YOU TO MY DREAM REALM...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_RADIANCE_ANY" Language="en_US">
+			<Text>...FRIEND FROM AFAR. WELCOME...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_RADIANCE_ANY" Language="en_US">
+			<Text>...GRATEFUL YOU...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RADIANCE_ANY" Language="en_US">
+			<Text>...GOOD...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RADIANCE_ANY" Language="en_US">
+			<Text>...NO...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_RADIANCE_ANY" Language="en_US">
+			<Text>...YOU. I DESIRE. FRIENDS...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_RADIANCE_ANY" Language="en_US">
+			<Text>...UNAWARE OF GOOD OR BAD...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_RADIANCE_ANY" Language="en_US">
+			<Text>...LIGHT. RADIANCE. SHALL. CONSUME. YOU...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_RADIANCE_ANY" Language="en_US">
+			<Text>...DESTROY. ALL...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_RADIANCE_ANY" Language="en_US">
+			<Text>...I TEAR YOUR MOUTH APART...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_RADIANCE_ANY" Language="en_US">
+			<Text>...VERMIN. PEST. [NEWLINE] (DENOUNCE YOU)...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_RADIANCE_ANY" Language="en_US">
+			<Text>...BE GONE...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_RADIANCE_ANY" Language="en_US">
+			<Text>...DESPISE...</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_RADIANCE_ANY" Language="en_US">
+			<Text>...WISE...</Text>
+		</Replace>
+
+		<Replace language="en_US" tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_RADIANCE_ANY">
+			<Text>...I WILL NOT BE FORGOTTEN...</Text>
+		</Replace>
+
+
+
+
+		<Replace Tag="LOC_AGENDA_GOD_OF_GODS_NAME" Language="en_US">
+			<Text>From the Abyss</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_GOD_OF_GODS_DESCRIPTION" Language="en_US">
+			<Text>Prefers civilizations not in a Golden Age but doesn't dislike those in one.</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_TRAIT_AGENDA_GOD_OF_GODS_LIKE_NO_GOLD_AGE_DES" Language="en_US">
+			<Text>Prefer civilizations that strive without the golden aura (non-Golden Age).</Text>
+		</Replace>
+
+		<Replace language="en_US" tag="LOC_DIPLO_KUDO_EXIT_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(feeling pleased)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_WARNING_EXIT_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(feeling displeased)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_FIRST_MEET_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(greets you)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(wishes to exchange capital information)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(extends a friendly invitation)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(pleased)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(expresses gratitude)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(agrees)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(rejects)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(wishes to declare friendship)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(expresses regret)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(doomed! Strike!)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(declaring war on you! Kill!)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY">
+			<Text>...</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...[NEWLINE](denouncing you)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(thinks you're preparing for war)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(regrettable)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(wise choice)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(you are a worthy opponent)</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_AGENDA_WANDERER_NAME" Language="en_US">
+			<Text>Exploration and Sketch</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_WANDERER_DESCRIPTION" Language="en_US">
+			<Text>Adores civilizations that explore maps extensively, despises those that explore them less.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_AGENDA_WANDERER_LIKE_HIGH_EXPLORATION_DES" Language="en_US">
+			<Text>Favors civilizations that explore the world more.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_AGENDA_WANDERER_HATE_LOW_EXPLORATION_DES" Language="en_US">
+			<Text>Dislikes civilizations that lack sufficient understanding of the world.</Text>
+		</Replace>
+
+		<Replace language="en_US" tag="LOC_DIPLO_KUDO_EXIT_LEADER_WANDERER_ANY">
+			<Text>(*^▽^*) (Pleased by your extensive map exploration)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_WARNING_EXIT_LEADER_WANDERER_ANY">
+			<Text>（｀へ´）(Displeased by your insufficient map exploration)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_FIRST_MEET_LEADER_WANDERER_ANY">
+			<Text>ヾ(´･ω･｀)ﾉ (Greets you)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_WANDERER_ANY">
+			<Text>(＾－＾) (Hopes to exchange capital information)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_WANDERER_ANY">
+			<Text>(。・・)ノ (Friendly invitation)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_WANDERER_ANY">
+			<Text>o(〃'▽'〃)o (Delighted)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_WANDERER_ANY">
+			<Text>☆⌒(*＾-゜)v (Expresses gratitude)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WANDERER_ANY">
+			<Text>n(*≧▽≦*)n (Agrees)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WANDERER_ANY">
+			<Text>（＃￣～￣＃） (Declines)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>(≧∇≦)ﾉ (Wants to declare friendship)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>(°ー°〃) (Expresses regret)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_WANDERER_ANY">
+			<Text>┻━┻︵╰(‵□′)╯︵┻━┻ (Brace yourself! Fight!)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>┻━┻︵╰（‵□′╰） (Declares war on you! Attack!)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_WANDERER_ANY">
+			<Text>(*￣︿￣)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>(╬￣皿￣)[NEWLINE](Denounces you)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_WANDERER_ANY">
+			<Text>o((⊙﹏⊙))o (Thinks you're about to start a war)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>Σ( ° _ °|||)︴ (Too bad)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>(＾－＾)V (Wise decision)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>o(╥﹏╥)o (Oh no!)</Text>
+		</Replace>
+
+
+
+		<Replace Tag="LOC_AGENDA_WYRMS_2_NAME" Language="en_US">
+			<Text>Construction Enthusiast</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_WYRMS_2_DESCRIPTION" Language="en_US">
+			<Text>
+				Prefers clearing all terrain features and improving all improvable tiles. 
+				Likes civilizations with a high proportion of improved tiles. 
+				Dislikes civilizations with a low proportion of improved tiles or those building national parks.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_AGENDA_WYRMS_2_EXPLOITATION_DES" Language="en_US">
+			<Text>Likes civilizations that develop many tiles and dislikes national parks.</Text>
+		</Replace>
+
+		<Replace language="en_US" tag="LOC_DIPLO_KUDO_EXIT_LEADER_WYRMS_ANY">
+			<Text>It's great to see so many improvements in your territory.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_WARNING_EXIT_LEADER_WYRMS_ANY">
+			<Text>Is that how you plan your land?</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_FIRST_MEET_LEADER_WYRMS_ANY">
+			<Text>Hello, I am the Pale King Wyrm, ruler of the Sacred Nest.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_WYRMS_ANY">
+			<Text>Stranger, where do you come from?</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_WYRMS_ANY">
+			<Text>I hope you can visit my exquisitely decorated White Palace.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_WYRMS_ANY">
+			<Text>This is good.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_WYRMS_ANY">
+			<Text>It's great to see the prosperity and splendor of your cities.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WYRMS_ANY">
+			<Text>May the Sacred Nest and your nation be friends forever.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WYRMS_ANY">
+			<Text>After careful consideration, I choose to refuse for now.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>Can we deepen our cooperation and create glory together?</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>It's a pity.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_WYRMS_ANY">
+			<Text>Militarist, beware! Prepare for war!</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>In the name of the Sacred Nest, I declare war on you!</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_WYRMS_ANY">
+			<Text>Oh? Interesting.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>You should pay the price for your actions. [NEWLINE] (Denouncing you)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_WYRMS_ANY">
+			<Text>Do you intend to wage war on the Sacred Nest?</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>It's unfortunate.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>Cooperation is pleasant.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>Is it inevitable to escape such a fate in the end?</Text>
+		</Replace>
+
+
+
+		<Replace Tag="LOC_AGENDA_GRIMM_NAME" Language="en_US">
+			<Text>Cultural Admiration</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_GRIMM_DESCRIPTION" Language="en_US">
+			<Text>Admires civilizations with high culture yields.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_AGENDA_GRIMM_CULTURE_DES" Language="en_US">
+			<Text>Admires civilizations with high culture yields.</Text>
+		</Replace>
+
+		<Replace language="en_US" tag="LOC_DIPLO_KUDO_EXIT_LEADER_GRIMM_ANY">
+			<Text>I can feel the warmth emanating from the flames you've gathered.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_WARNING_EXIT_LEADER_GRIMM_ANY">
+			<Text>Seek out my kin, collect their flames, and return them to me.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_FIRST_MEET_LEADER_GRIMM_ANY">
+			<Text>Pleased to meet you, my friend. I am Grimm, leader of this troupe.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_GRIMM_ANY">
+			<Text>Stranger, where do you hail from?</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_GRIMM_ANY">
+			<Text>This grand stage you've chosen, a kingdom nurtured by bug and root, is the perfect land for our rituals.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_GRIMM_ANY">
+			<Text>A charming ceremony... a delight!</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_GRIMM_ANY">
+			<Text>This scorching flame... it bodes well for the rituals.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GRIMM_ANY">
+			<Text>The Lantern of Nightmares is lit, sealing our pact in crimson flames.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GRIMM_ANY">
+			<Text>I must decline.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_GRIMM_ANY">
+			<Text>Dance with me, my friend. The audience awaits, let them see how pivotal you are!</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_GRIMM_ANY">
+			<Text>What a pity.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_GRIMM_ANY">
+			<Text>I'm certain both of you will become the protagonists of countless glories and tragedies.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_GRIMM_ANY">
+			<Text>Dance with me, my friend. The audience awaits, let them see how pivotal you are!</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_GRIMM_ANY">
+			<Text>Begone, back to the darkness, my friend.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_GRIMM_ANY">
+			<Text>Our crimson eyes will be watching you... friend.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_GRIMM_ANY">
+			<Text>A spectacular opening act, the air is filled with fervor. (Thinks you're about to start a war)</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_GRIMM_ANY">
+			<Text>What a pity.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_GRIMM_ANY">
+			<Text>Happy cooperation, my friend.</Text>
+		</Replace>
+		<Replace language="en_US" tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_GRIMM_ANY">
+			<Text>Our grand ritual is coming to an end. Will you continue to collect flames, even though you must have seen how they illuminate our path?</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RADIANCE_QUOTE" Language="en_US">
+			<Text>...DAWN WILL BREAK!....</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RADIANCE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>
+				Plague, infection, madness entangled with the corpses of the Sanctum's insects... Light screaming out of the eyes of the subjects of this decaying kingdom.
+				Where does it come from? I, a mere mortal, may never understand.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GOD_OF_GODS_QUOTE" Language="en_US">
+			<Text>......</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GOD_OF_GODS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>
+				Known as the God of Gods by Seekers, referred to as the Lord of Shadows in game files, often addressed by players as the God of Void.
+				It's a massive void creature with many horns on its head, four arms, eight luminous white eyes, and many twitching tendrils on its back.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WANDERER_QUOTE" Language="en_US">
+			<Text>......</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WANDERER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>
+				A mysterious Wanderer wielding a bone spike as a weapon, delved into the depths beneath the Sanctum's surface, embarking on an adventurous journey.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WYRMS_QUOTE" Language="en_US">
+			<Text>We should add chainsaws here too.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WYRMS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>
+				Oh, the old king of Sanctum... he must have been too eager to save his crumbling little world.
+				The sacrifices he imposed... all for naught.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WYRMS_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>
+				MY KING... YOU.. ARE AN INCORRIGIBLE ASS! (random interjection)
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GRIMM_QUOTE" Language="en_US">
+			<Text>What a grand stage!</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GRIMM_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>
+				Through dreams, heed the call of the Lantern, gather flames, and don the crown of decay.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GRIMM_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>
+				Burn the father, feed the child.
+			</Text>
+		</Replace>
+
+
+
+	</LocalizedText>
+</GameData>
